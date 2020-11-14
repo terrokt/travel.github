@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'PlayfairDisplayBold';
+  src: url('../fonts/Playfair/PlayfairDisplay-Bold.eot');
+  src: url('../fonts/Playfair/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Playfair/PlayfairDisplay-Bold.woff') format('woff'),
+  url('../fonts/Playfair/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'InterLight';
+  src: url('../fonts/inter/Inter-Light.eot');
+  src: url('../fonts/inter/Inter-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/inter/Inter-Light.woff') format('woff'),
+  url('../fonts/inter/Inter-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('../fonts/inter/Inter-Regular.eot');
+  src: url('../fonts/inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/inter/Inter-Regular.woff') format('woff'),
+  url('../fonts/inter/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin interReg {
+  font-family: 'InterRegular';
+}
+@mixin interLight {
+  font-family: 'InterLight';
+}
+@mixin name {
+  font-family: 'PlayfairDisplayBold';
+}
