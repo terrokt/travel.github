@@ -1,0 +1,44 @@
+.galery
+  padding-bottom: 200px
+  &-content
+    &__cards
+      display: flex
+      align-items: center
+      justify-content: space-between
+    &__text
+      display: flex
+      align-items: baseline
+      justify-content: space-between
+      margin-bottom: 56px
+  &__link
+    text-decoration: none
+    color: #FB8F1D
+    font-weight: 600
+    &::after
+      content: ">"
+      color: #FB8F1D
+      max-width: 4px
+      margin-left: 10px
+
+.cards
+  &-item
+    max-width: 260px
+    border-radius: 8px
+    overflow: hidden
+    position: relative
+  &-description
+    padding-top: 10px
+    border-radius: 0px 8px 0px 0px
+    position: absolute
+    left: 0
+    bottom: 0
+    background-color: #ffffff
+    width: 120px
+    &__title
+      margin: 0
+      font-size: 17px
+      font-weight: 600
+    &__text
+      font-size: 15px
+      color: #80908E
+    
